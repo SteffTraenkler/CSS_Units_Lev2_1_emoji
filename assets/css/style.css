@@ -1,0 +1,34 @@
+li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+}
+
+ul li ul li ul li:before{
+    content:"🐶";
+}
+
+ul li ul li:nth-of-type(2) ul li::before{
+    content: "🐱";
+}
+
+ul li:nth-of-type(2) ul li ul li::before{
+    content: "🦜";
+}
+
+ul li:nth-of-type(3) ul li ul li::before{
+    content: "🐍";
+}
+
+ul li:nth-of-type(3) ul li:nth-of-type(2) ul li::before{
+    content: "🐊";
+}
+section{
+    border: 0.2rem solid black;
+    font-size: 1.5rem;
+}
+
+
